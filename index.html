@@ -1,11 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dprox Guincho 24h</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -17,40 +15,40 @@
     }
 
     header {
-      padding: 40px 20px;
-      background-color: #0a0a0a;
+      padding: 20px;
     }
 
-    img.logo {
-      width: 200px;
-      border-radius: 50%;
+    .logo {
+      width: 150px;
+      max-width: 80%;
+      margin-top: 10px;
     }
 
     h1 {
       color: #4fc34f;
-      margin-top: 20px;
-      font-size: 2.5rem;
+      font-size: 1.8rem;
+      margin: 20px 0 10px;
     }
 
     .atendimento {
-      font-size: 1.2rem;
-      margin: 20px auto;
-      max-width: 600px;
+      font-size: 1rem;
+      margin: 10px auto;
+      max-width: 90%;
       line-height: 1.6;
     }
 
     .btn-whatsapp {
       display: inline-block;
-      margin-top: 30px;
-      padding: 15px 30px;
+      margin: 25px auto;
+      padding: 15px 25px;
       background-color: #25d366;
       color: #000;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: bold;
       text-decoration: none;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #25d366;
-      transition: 0.3s ease-in-out;
+      border-radius: 12px;
+      box-shadow: 0 0 12px #25d366;
+      transition: 0.3s ease;
     }
 
     .btn-whatsapp:hover {
@@ -58,40 +56,66 @@
       box-shadow: 0 0 15px #1da851;
     }
 
-    footer {
-      margin-top: 50px;
-      font-size: 0.9rem;
-      color: #777;
-      padding-bottom: 30px;
-    }
-
     .regioes {
       margin-top: 30px;
-      font-size: 1rem;
+      font-size: 0.95rem;
       color: #ccc;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #777;
+      padding-bottom: 20px;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .atendimento {
+        font-size: 1.2rem;
+      }
+
+      .btn-whatsapp {
+        font-size: 1.3rem;
+        padding: 18px 30px;
+      }
+
+      .regioes {
+        font-size: 1rem;
+      }
+
+      footer {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="logo.png" alt="Dprox Logo" class="logo">
+    <img src="logo.png" alt="Dprox Logo" class="logo" />
     <h1>DPROX GUINCHOS E REMOÇÕES</h1>
     <p class="atendimento">
-      Atendimento imediato 24 horas por dia, 7 dias por semana.<br>
-      Socorro veicular, remoção e assistência rápida com cobertura em toda a região metropolitana.
+      Atendimento 24h todos os dias.<br>
+      Socorro veicular, remoção e assistência rápida em toda a região metropolitana.
     </p>
-    <a href="https://wa.me/5551997910808" class="btn-whatsapp" target="_blank">Chamar no WhatsApp</a>
-
+    <a href="https://wa.me/5551997910808" class="btn-whatsapp" target="_blank">
+      Chamar no WhatsApp
+    </a>
     <div class="regioes">
-      <p>Atendemos em:</p>
-      <strong>Porto Alegre, Canoas, Alvorada, Gravataí, Esteio, Sapucaia do Sul, Nova Santa Rita e São Leopoldo</strong>
+      <p><strong>Atendemos em:</strong><br>
+        Porto Alegre, Canoas, Alvorada, Gravataí, Esteio,<br>
+        Sapucaia do Sul, Nova Santa Rita e São Leopoldo.
+      </p>
     </div>
   </header>
-
   <footer>
     &copy; 2025 Dprox Guincho - Todos os direitos reservados
   </footer>
-
 </body>
 </html>
